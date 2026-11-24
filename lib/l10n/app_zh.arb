@@ -1,0 +1,333 @@
+{
+  "@@locale": "zh",
+  "appName": "购物模板",
+  "tabHome": "首页",
+  "tabProduct": "商品",
+  "tabContent": "内容",
+  "tabMine": "我的",
+  "tapAgainToExit": "再次点击退出应用",
+  "settingsTitle": "设置",
+  "accountSecurity": "账号与安全",
+  "accountSecurityPlaceholder": "模板占位：账号与安全",
+  "privacyPolicy": "隐私协议",
+  "userAgreement": "用户协议",
+  "protocolMissing": "暂无协议地址",
+  "clearCache": "清除缓存",
+  "cacheCleared": "缓存已清除",
+  "theme": "主题",
+  "themeLight": "浅色",
+  "themeDark": "深色",
+  "themeSystem": "跟随系统",
+  "language": "语言",
+  "languageZh": "简体中文",
+  "languageEn": "English",
+  "languageSystem": "跟随系统",
+  "aboutUs": "关于我们",
+  "currentVersion": "当前版本",
+  "logout": "退出登录",
+  "logoutConfirm": "确定退出登录？",
+  "cancel": "取消",
+  "confirm": "确定",
+  "tip": "提示",
+  "loading": "加载中…",
+  "empty": "暂无数据",
+  "loadFailed": "加载失败，请重试",
+  "retry": "重试",
+  "refreshLoading": "正在刷新",
+  "refreshComplete": "刷新完成",
+  "pullUpLoad": "上拉加载",
+  "releaseToLoadMore": "松手加载更多",
+  "noMoreData": "我是有底线哒～",
+  "homeTitle": "发现",
+  "homeRecommend": "推荐",
+  "navNew": "新品",
+  "navHot": "热卖",
+  "navCategory": "分类",
+  "navCoupon": "优惠券",
+  "navActivity": "活动",
+  "navVip": "会员",
+  "navLive": "直播",
+  "navMore": "更多",
+  "searchHint": "搜索商品",
+  "categoryLoading": "正在加载商品…",
+  "detailTitle": "详情",
+  "feedFavorited": "已收藏",
+  "feedFavorite": "收藏",
+  "feedUnfavorited": "已取消收藏",
+  "commentInputEmpty": "请输入评论内容",
+  "commentMe": "我",
+  "justNow": "刚刚",
+  "share": "分享",
+  "comments": "评论",
+  "viewAll": "查看全部",
+  "feedNoComments": "还没有评论，快来抢沙发",
+  "feedCommentHint": "说点什么…",
+  "send": "发送",
+  "mineGuestName": "用户",
+  "mineTapLogin": "点击登录",
+  "mineLoginHint": "登录后同步订单与收藏",
+  "myOrders": "我的订单",
+  "all": "全部",
+  "messageCenter": "消息中心",
+  "myFavorites": "我的收藏",
+  "cartTitle": "购物车",
+  "orderStatusPending": "待付款",
+  "orderStatusToShip": "待发货",
+  "orderStatusToReceive": "待收货",
+  "orderStatusDone": "已完成",
+  "profileTitle": "个人信息",
+  "avatar": "头像",
+  "nickname": "昵称",
+  "notSet": "未设置",
+  "mobile": "手机号",
+  "wechatAccount": "微信账号",
+  "bound": "已绑定",
+  "notBound": "未绑定",
+  "editNickname": "修改昵称",
+  "nicknameHint": "请输入昵称",
+  "save": "保存",
+  "nicknameEmpty": "昵称不能为空",
+  "nicknameUpdated": "昵称已更新",
+  "changeMobile": "更换手机号",
+  "newMobileHint": "请输入新手机号",
+  "change": "更换",
+  "invalidMobile": "请输入正确的手机号",
+  "mobileUpdated": "手机号已更换",
+  "wechatAlreadyBound": "当前已绑定微信",
+  "wechatBindTip": "将使用当前微信账号快捷登录并完成绑定",
+  "bindWechat": "绑定微信",
+  "wechatBindSuccess": "微信绑定成功",
+  "aboutUsDesc": "LJ Flutter Template 是一套开箱即用的 Flutter 工程模板，内置网络、路由、主题、常用页面与组件示例，帮助团队快速搭建业务项目。",
+  "versionText": "版本 {version}",
+  "@versionText": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "productTitle": "商品详情",
+  "salesCount": "已售 {count}",
+  "@salesCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "selectSkuHint": "请选择规格",
+  "spec": "规格",
+  "addToCart": "加入购物车",
+  "buyNow": "立即购买",
+  "selectSku": "选择规格",
+  "soldOutSuffix": "{name}（缺货）",
+  "@soldOutSuffix": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "addedToCart": "已加入购物车",
+  "detailSampleContent": "这里是「{title}」的示例详情内容。",
+  "@detailSampleContent": {
+    "placeholders": {
+      "title": {
+        "type": "String"
+      }
+    }
+  },
+  "detailSampleDesc": "通用详情页用于承载轮播、宫格、消息等入口的二级页面。实际业务中可按需替换为富文本或 WebView 内容。",
+  "searchAction": "搜索",
+  "searchNoHistory": "暂无搜索历史",
+  "searchHistory": "搜索历史",
+  "searchNoResult": "没有找到相关商品",
+  "searchEmpty": "请输入搜索内容",
+  "cartEmpty": "购物车还是空的",
+  "selectAll": "全选",
+  "total": "合计",
+  "checkout": "去结算",
+  "removed": "已移除",
+  "selectCheckoutItems": "请选择要结算的商品",
+  "orderLoading": "正在加载订单…",
+  "orderEmpty": "暂无相关订单",
+  "orderNo": "订单号 {no}",
+  "@orderNo": {
+    "placeholders": {
+      "no": {
+        "type": "String"
+      }
+    }
+  },
+  "orderConfirmTitle": "确认订单",
+  "orderDemoReceiver": "张三  138****8888",
+  "orderDemoAddress": "浙江省杭州市西湖区示例路 88 号",
+  "remark": "备注",
+  "remarkHint": "选填，请先和商家协商一致",
+  "goodsCountLabel": "商品件数",
+  "goodsCountValue": "{count} 件",
+  "@goodsCountValue": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "goodsAmount": "商品金额",
+  "freight": "运费",
+  "payable": "实付款",
+  "submitOrder": "提交订单",
+  "paySuccess": "支付成功",
+  "orderCreatedTip": "订单已创建，请尽快支付",
+  "done": "完成",
+  "manage": "管理",
+  "deleteSelected": "删除选中（{count}）",
+  "@deleteSelected": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "favoritesEmpty": "还没有收藏内容",
+  "selectToDelete": "请选择要删除的内容",
+  "deleted": "已删除",
+  "messageTitle": "消息",
+  "markAllRead": "全部已读",
+  "gotIt": "知道了",
+  "loginTitle": "登录",
+  "sendCode": "发送验证码",
+  "resendIn": "{seconds}s后重试",
+  "@resendIn": {
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "verifyCode": "验证码",
+  "agreePrefix": "我已阅读并同意",
+  "userServiceAgreement": "《用户服务协议》",
+  "andWord": "和",
+  "privacyTerms": "《隐私条款》",
+  "codeSent": "验证码已发送",
+  "codeSentWithCode": "验证码已发送：{code}",
+  "@codeSentWithCode": {
+    "placeholders": {
+      "code": {
+        "type": "String"
+      }
+    }
+  },
+  "agreeRequired": "请阅读并勾选协议",
+  "invalidCode": "请输入正确的验证码",
+  "couponTitle": "优惠券",
+  "couponThreshold": "满{amount}可用",
+  "@couponThreshold": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "validUntil": "有效期至 {date}",
+  "@validUntil": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "useNow": "去使用",
+  "used": "已使用",
+  "expired": "已过期",
+  "activityTitle": "活动",
+  "activityOngoing": "进行中",
+  "activityUpcoming": "即将开始",
+  "activityEnded": "已结束",
+  "vipTitle": "会员中心",
+  "vipBenefits": "专属权益",
+  "vipJoin": "立即开通 ¥{price}/年",
+  "@vipJoin": {
+    "placeholders": {
+      "price": {
+        "type": "String"
+      }
+    }
+  },
+  "vipPoints": "积分 {points}",
+  "@vipPoints": {
+    "placeholders": {
+      "points": {
+        "type": "int"
+      }
+    }
+  },
+  "vipGrowth": "成长值 {growth} / {next}",
+  "@vipGrowth": {
+    "placeholders": {
+      "growth": {
+        "type": "int"
+      },
+      "next": {
+        "type": "int"
+      }
+    }
+  },
+  "vipSuccess": "会员开通成功",
+  "liveTitle": "直播",
+  "living": "直播中",
+  "viewersWan": "{value}万",
+  "@viewersWan": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "viewersK": "{value}K",
+  "@viewersK": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "shareTo": "分享到",
+  "shareWechat": "微信好友",
+  "shareMoments": "朋友圈",
+  "shareWeibo": "微博",
+  "shareQQ": "QQ",
+  "shareCopyLink": "复制链接",
+  "linkCopied": "链接已复制",
+  "sharedToWechat": "已分享到微信好友",
+  "sharedToMoments": "已分享到朋友圈",
+  "sharedToWeibo": "已分享到微博",
+  "sharedToQQ": "已分享到QQ",
+  "payWechat": "微信支付",
+  "payAlipay": "支付宝",
+  "confirmPay": "确认支付",
+  "cashier": "收银台",
+  "paying": "正在支付...",
+  "unknownRoute": "你找到了一片荒芜之地~~",
+  "permissionTitle": "权限提示",
+  "permissionDenied": "未获得{name}权限，请去系统设置中开启后重试",
+  "@permissionDenied": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "permCamera": "相机",
+  "permPhotos": "相册",
+  "permMicrophone": "麦克风",
+  "permStorage": "存储",
+  "avatarUpdated": "头像已更新",
+  "envProduction": "正式",
+  "payFailed": "支付失败",
+  "shareFailed": "分享失败",
+  "wechatNotInstalled": "未安装微信",
+  "wechatLogin": "微信一键登录",
+  "wechatLoginFailed": "微信登录失败"
+}

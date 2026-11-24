@@ -1,0 +1,550 @@
+{
+  "/api/config": {
+    "code": 200,
+    "message": "",
+    "data": {
+      "protocolUrl": "https://www.ljay.com/protocol",
+      "privacyUrl": "https://www.ljay.com/privacy"
+    }
+  },
+  "/api/user/login/wechat": {
+    "code": 200,
+    "message": "",
+    "data": {
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.wechat"
+    }
+  },
+  "/api/user/login/refresh_token": {
+    "code": 200,
+    "message": "",
+    "data": {
+      "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.refresh"
+    }
+  },
+  "/api/user/login/logout": {
+    "code": 200,
+    "message": ""
+  },
+  "/api/user/userInfo": {
+    "code": 200,
+    "message": "",
+    "data": {
+      "uid": 5486,
+      "nickname": "伍六七",
+      "mobile": "13800138000",
+      "avatar": "https://picsum.photos/seed/avatar-me/200/200"
+    }
+  },
+  "/api/system/maintain": {
+    "code": 200,
+    "message": "",
+    "data": {
+      "maintain": false
+    }
+  },
+  "/api/home/banners": {
+    "code": 200,
+    "message": "",
+    "data": [
+      {
+        "id": 1,
+        "title": "新品首发",
+        "imageUrl": "https://picsum.photos/seed/banner1/1200/600",
+        "link": ""
+      },
+      {
+        "id": 2,
+        "title": "限时秒杀",
+        "imageUrl": "https://picsum.photos/seed/banner2/1200/600",
+        "link": ""
+      },
+      {
+        "id": 3,
+        "title": "会员专享",
+        "imageUrl": "https://picsum.photos/seed/banner3/1200/600",
+        "link": ""
+      }
+    ]
+  },
+  "/api/home/navs": {
+    "code": 200,
+    "message": "",
+    "data": [
+      {
+        "title": "新品",
+        "icon": "new",
+        "colorValue": 4281297919,
+        "route": "search",
+        "keyword": "新品"
+      },
+      {
+        "title": "热卖",
+        "icon": "hot",
+        "colorValue": 4294933061,
+        "route": "search",
+        "keyword": "热卖"
+      },
+      {
+        "title": "分类",
+        "icon": "category",
+        "colorValue": 4279416682,
+        "route": "category"
+      },
+      {
+        "title": "优惠券",
+        "icon": "coupon",
+        "colorValue": 4294414345,
+        "route": "coupon"
+      },
+      {
+        "title": "活动",
+        "icon": "activity",
+        "colorValue": 4287323382,
+        "route": "activity"
+      },
+      {
+        "title": "会员",
+        "icon": "vip",
+        "colorValue": 4279150057,
+        "route": "vip"
+      },
+      {
+        "title": "直播",
+        "icon": "live",
+        "colorValue": 4293870660,
+        "route": "live"
+      },
+      {
+        "title": "更多",
+        "icon": "more",
+        "colorValue": 4279286145,
+        "route": "more"
+      }
+    ]
+  },
+  "/api/category/list": {
+    "code": 200,
+    "message": "",
+    "data": [
+      {
+        "id": 1,
+        "name": "手机数码",
+        "nameEn": "Phones & Digital"
+      },
+      {
+        "id": 2,
+        "name": "服饰鞋包",
+        "nameEn": "Fashion"
+      },
+      {
+        "id": 3,
+        "name": "美妆护肤",
+        "nameEn": "Beauty"
+      },
+      {
+        "id": 4,
+        "name": "食品生鲜",
+        "nameEn": "Grocery"
+      },
+      {
+        "id": 5,
+        "name": "家居日用",
+        "nameEn": "Home & Living"
+      },
+      {
+        "id": 6,
+        "name": "运动户外",
+        "nameEn": "Sports & Outdoor"
+      },
+      {
+        "id": 7,
+        "name": "母婴玩具",
+        "nameEn": "Baby & Toys"
+      },
+      {
+        "id": 8,
+        "name": "图书文娱",
+        "nameEn": "Books & Media"
+      }
+    ]
+  },
+  "/api/message/list": {
+    "code": 200,
+    "message": "",
+    "data": [
+      {
+        "id": 1,
+        "title": "系统通知",
+        "content": "欢迎使用 LJ Flutter Template，这是一条未读消息。",
+        "time": "10:24",
+        "read": false
+      },
+      {
+        "id": 2,
+        "title": "订单提醒",
+        "content": "您的订单已发货，请注意查收。",
+        "time": "昨天",
+        "read": false
+      },
+      {
+        "id": 3,
+        "title": "活动通知",
+        "content": "限时优惠活动开始啦，快来看看吧。",
+        "time": "2 天前",
+        "read": true
+      },
+      {
+        "id": 4,
+        "title": "账户安全",
+        "content": "您的账号于新设备登录，如非本人操作请及时修改密码。",
+        "time": "3 天前",
+        "read": true
+      },
+      {
+        "id": 5,
+        "title": "会员权益",
+        "content": "会员专属折扣已更新，登录即可查看最新权益。",
+        "time": "4 天前",
+        "read": true
+      }
+    ]
+  },
+  "/api/favorite/list": {
+    "code": 200,
+    "message": "",
+    "data": [
+      {
+        "id": 301,
+        "author": "收藏作者 A",
+        "avatar": "https://picsum.photos/seed/favAvatar301/200/200",
+        "content": "这是一条已收藏的内容，支持管理模式下多选删除。",
+        "cover": "https://picsum.photos/seed/fav301/800/800",
+        "time": "1 天前",
+        "likes": 22,
+        "comments": 3,
+        "liked": false,
+        "favorited": true
+      },
+      {
+        "id": 302,
+        "author": "收藏作者 B",
+        "avatar": "https://picsum.photos/seed/favAvatar302/200/200",
+        "content": "另一条收藏内容。",
+        "cover": "https://picsum.photos/seed/fav302/800/800",
+        "time": "3 天前",
+        "likes": 8,
+        "comments": 1,
+        "liked": false,
+        "favorited": true
+      },
+      {
+        "id": 303,
+        "author": "收藏作者 C",
+        "avatar": "https://picsum.photos/seed/favAvatar303/200/200",
+        "content": "第三条收藏内容。",
+        "cover": "https://picsum.photos/seed/fav303/800/800",
+        "time": "5 天前",
+        "likes": 3,
+        "comments": 0,
+        "liked": false,
+        "favorited": true
+      },
+      {
+        "id": 304,
+        "author": "收藏作者 D",
+        "avatar": "https://picsum.photos/seed/favAvatar304/200/200",
+        "content": "第四条收藏内容，用于展示收藏列表整体效果。",
+        "cover": "https://picsum.photos/seed/fav304/800/800",
+        "time": "1 周前",
+        "likes": 15,
+        "comments": 2,
+        "liked": false,
+        "favorited": true
+      }
+    ]
+  },
+  "/api/comment/list": {
+    "code": 200,
+    "message": "",
+    "data": [
+      {
+        "id": 1,
+        "author": "评论用户 A",
+        "avatar": "https://picsum.photos/seed/commentAvatar1/200/200",
+        "content": "这条内容很实用，收藏了。",
+        "time": "2 小时前",
+        "likes": 12
+      },
+      {
+        "id": 2,
+        "author": "评论用户 B",
+        "avatar": "https://picsum.photos/seed/commentAvatar2/200/200",
+        "content": "模板结构清晰，点赞。",
+        "time": "4 小时前",
+        "likes": 8
+      },
+      {
+        "id": 3,
+        "author": "评论用户 C",
+        "avatar": "https://picsum.photos/seed/commentAvatar3/200/200",
+        "content": "希望能再补充一些示例。",
+        "time": "昨天",
+        "likes": 5
+      },
+      {
+        "id": 4,
+        "author": "评论用户 D",
+        "avatar": "https://picsum.photos/seed/commentAvatar4/200/200",
+        "content": "已经用在项目里了，效果不错。",
+        "time": "2 天前",
+        "likes": 3
+      },
+      {
+        "id": 5,
+        "author": "评论用户 E",
+        "avatar": "https://picsum.photos/seed/commentAvatar5/200/200",
+        "content": "支持一下。",
+        "time": "3 天前",
+        "likes": 1
+      },
+      {
+        "id": 6,
+        "author": "评论用户 F",
+        "avatar": "https://picsum.photos/seed/commentAvatar6/200/200",
+        "content": "细节处理得很到位，学到了。",
+        "time": "4 天前",
+        "likes": 6
+      },
+      {
+        "id": 7,
+        "author": "评论用户 G",
+        "avatar": "https://picsum.photos/seed/commentAvatar7/200/200",
+        "content": "有没有更详细的接入说明？",
+        "time": "5 天前",
+        "likes": 2
+      },
+      {
+        "id": 8,
+        "author": "评论用户 H",
+        "avatar": "https://picsum.photos/seed/commentAvatar8/200/200",
+        "content": "期待后续更新。",
+        "time": "1 周前",
+        "likes": 0
+      }
+    ]
+  },
+  "/api/feed/like": {
+    "code": 200,
+    "message": ""
+  },
+  "/api/feed/favorite": {
+    "code": 200,
+    "message": ""
+  },
+  "/api/comment/create": {
+    "code": 200,
+    "message": ""
+  },
+  "/api/coupon/list": {
+    "code": 200,
+    "message": "",
+    "data": [
+      {
+        "id": 1,
+        "title": "新人专享券",
+        "amount": 20,
+        "threshold": 100,
+        "scope": "全场通用",
+        "validTo": "2026-12-31",
+        "status": 0
+      },
+      {
+        "id": 2,
+        "title": "数码品类券",
+        "amount": 50,
+        "threshold": 499,
+        "scope": "手机数码",
+        "validTo": "2026-12-15",
+        "status": 0
+      },
+      {
+        "id": 3,
+        "title": "服饰满减券",
+        "amount": 30,
+        "threshold": 199,
+        "scope": "服饰鞋包",
+        "validTo": "2026-12-01",
+        "status": 0
+      },
+      {
+        "id": 4,
+        "title": "生鲜尝鲜券",
+        "amount": 10,
+        "threshold": 59,
+        "scope": "食品生鲜",
+        "validTo": "2026-11-10",
+        "status": 2
+      },
+      {
+        "id": 5,
+        "title": "会员日福利券",
+        "amount": 15,
+        "threshold": 99,
+        "scope": "全场通用",
+        "validTo": "2026-11-01",
+        "status": 1
+      }
+    ]
+  },
+  "/api/activity/list": {
+    "code": 200,
+    "message": "",
+    "data": [
+      {
+        "id": 1,
+        "title": "新品首发季",
+        "subtitle": "手机数码新品 5 折起，先到先得",
+        "cover": "https://picsum.photos/seed/activity1/1200/600",
+        "time": "11.20 - 11.30",
+        "status": 0
+      },
+      {
+        "id": 2,
+        "title": "双十二预热",
+        "subtitle": "全品类满减，提前加购不排队",
+        "cover": "https://picsum.photos/seed/activity2/1200/600",
+        "time": "12.01 - 12.12",
+        "status": 1
+      },
+      {
+        "id": 3,
+        "title": "会员日宠爱",
+        "subtitle": "会员专享 3 倍积分，权益叠加",
+        "cover": "https://picsum.photos/seed/activity3/1200/600",
+        "time": "每月 8 日",
+        "status": 0
+      },
+      {
+        "id": 4,
+        "title": "夏季清仓",
+        "subtitle": "运动户外低至 2 折",
+        "cover": "https://picsum.photos/seed/activity4/1200/600",
+        "time": "10.01 - 10.15",
+        "status": 2
+      }
+    ]
+  },
+  "/api/vip/info": {
+    "code": 200,
+    "message": "",
+    "data": {
+      "level": "VIP 2",
+      "levelName": "黄金会员",
+      "growth": 860,
+      "nextGrowth": 1200,
+      "points": 2680,
+      "expireDate": "2027-06-30",
+      "price": 198,
+      "benefits": [
+        {
+          "icon": "discount",
+          "title": "专属折扣",
+          "desc": "全场 9 折"
+        },
+        {
+          "icon": "coupon",
+          "title": "每月领券",
+          "desc": "4 张无门槛券"
+        },
+        {
+          "icon": "freight",
+          "title": "免运费",
+          "desc": "不限次数"
+        },
+        {
+          "icon": "service",
+          "title": "专属客服",
+          "desc": "7×24 小时"
+        },
+        {
+          "icon": "points",
+          "title": "积分翻倍",
+          "desc": "消费 2 倍积分"
+        },
+        {
+          "icon": "gift",
+          "title": "生日礼遇",
+          "desc": "生日专属好礼"
+        }
+      ]
+    }
+  },
+  "/api/live/list": {
+    "code": 200,
+    "message": "",
+    "data": [
+      {
+        "id": 1,
+        "title": "秋冬穿搭专场",
+        "anchor": "小鹿",
+        "avatar": "https://picsum.photos/seed/liveAvatar1/200/200",
+        "cover": "https://picsum.photos/seed/live1/1200/675",
+        "viewers": 12800,
+        "live": true,
+        "time": "直播中"
+      },
+      {
+        "id": 2,
+        "title": "数码开箱实测",
+        "anchor": "阿凯",
+        "avatar": "https://picsum.photos/seed/liveAvatar2/200/200",
+        "cover": "https://picsum.photos/seed/live2/1200/675",
+        "viewers": 5600,
+        "live": true,
+        "time": "直播中"
+      },
+      {
+        "id": 3,
+        "title": "生鲜产地直发",
+        "anchor": "田野",
+        "avatar": "https://picsum.photos/seed/liveAvatar3/200/200",
+        "cover": "https://picsum.photos/seed/live3/1200/675",
+        "viewers": 2300,
+        "live": false,
+        "time": "今晚 20:00"
+      },
+      {
+        "id": 4,
+        "title": "家居好物分享",
+        "anchor": "小满",
+        "avatar": "https://picsum.photos/seed/liveAvatar4/200/200",
+        "cover": "https://picsum.photos/seed/live4/1200/675",
+        "viewers": 860,
+        "live": false,
+        "time": "明天 19:30"
+      },
+      {
+        "id": 5,
+        "title": "运动装备测评",
+        "anchor": "老王",
+        "avatar": "https://picsum.photos/seed/liveAvatar5/200/200",
+        "cover": "https://picsum.photos/seed/live5/1200/675",
+        "viewers": 8600,
+        "live": true,
+        "time": "直播中"
+      }
+    ]
+  },
+  "/api/order/create": {
+    "code": 200,
+    "message": ""
+  },
+  "/api/user/update": {
+    "code": 200,
+    "message": ""
+  },
+  "/api/user/bind/wechat": {
+    "code": 200,
+    "message": ""
+  }
+}
